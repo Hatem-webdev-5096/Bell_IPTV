@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2% 2% 0 1.2%;
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+}
+
+.brandName {
+  /* font-family: "Arima", cursive; */
+  /* font-family: "Noto Sans JP", sans-serif; */
+  font-weight: 700;
+  font-size:x-large;
+  color: #FB304F;
+  position: relative;
+  top: 0.6vh;
+  margin-left: 1.5vh;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+  position: relative;
+  bottom: 1.5vh;
+}
+
+.bg-light{
+    opacity: 0.8;
+}
+
+.logo {
+  min-width:3.2vw;
+  height:auto;
+}

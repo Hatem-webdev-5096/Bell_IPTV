@@ -1,0 +1,68 @@
+.featureOneContainer {
+    padding: 2%;
+    margin-top: 30vw;
+    height:75vh;
+}
+
+.header {
+    text-align: center;
+    color: rgb(87, 87, 87);
+    font-weight:300;
+}
+
+.header span {
+    display: inline-block;
+    font-weight:400;
+    color: #fc1a57;
+}
+
+.featureOneContainer  img {
+    height: 3rem;
+    padding: 0 15px;
+    margin-left: 3vh;
+    margin-right: 3vh;
+
+  }
+  
+  .featureOneContainer img:last-of-type {
+    padding-left: 0;
+  }
+  
+  .inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 5rem;
+    margin-top: 10vh;
+  }
+  
+  .wrapper {
+    position: absolute;
+    display: flex;
+  }
+  
+  section {
+    display: flex;
+    animation: swipe var(--speed) linear infinite backwards;
+  }
+  
+  @keyframes swipe {
+    0% {
+      transform: translate(0);
+    }
+  
+    100% {
+      transform: translate(-100%);
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .featureOneContainer  img{
+      height:2.2rem;
+      width: auto;
+    }
+
+    .featureOneContainer {
+      margin-top: 35;
+    }
+  }

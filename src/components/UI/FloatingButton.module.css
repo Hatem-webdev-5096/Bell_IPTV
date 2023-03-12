@@ -1,0 +1,13 @@
+#btn-back-to-top {
+    position: fixed;
+    bottom: 5vh;
+    right: 3vw;
+    background-color: #FB304F;
+    color: #F6FBF4;
+    border:none;
+    border-radius: 5px;
+    padding:1% 1.2%; 
+    cursor: pointer;
+    z-index: 10;
+  }
+  

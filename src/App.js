@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import MyNavbar from "./components/navbar/Navbar";
+import Hero from "./components/hero/Hero";
+import Channels from "./components/channels/Channels";
+import Pricing from "./components/pricing/Pricing";
+import Multiplatform from "./components/mutliplatform/Multiplatform";
+import Testimonials from "./components/testimonials/Testimonials";
+import Support from "./components/support/Support";
+import Footer from "./components/footer/Footer";
+import FLoatingButton from "./components/UI/FloatingButton";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <MyNavbar />
+    <Hero />
+    <Channels />
+    <Multiplatform />
+    <Pricing />
+    <Testimonials />
+    <Support />
+    <Footer />
+    <FLoatingButton />
+    </>
   );
 }
 

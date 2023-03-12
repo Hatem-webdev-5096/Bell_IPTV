@@ -1,0 +1,65 @@
+.heroContainer {
+  height: 90vh;
+  position: relative;
+  background-image: url("./backgrounds/bg.png");
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.heroContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.heroContent p {
+  font-family: "Noto Sans JP", sans-serif;
+  width: 45%;
+  font-size: 5vw;
+  color: rgb(109, 109, 110);
+  font-weight: 300;
+  height:70%;
+}
+
+.heroContent span {
+  font-family: "Tilt Warp", cursive;
+  font-size: 6vw;
+  color: #fc1a57;
+  display:block;
+}
+
+
+@media (max-width: 1200px) {
+  .heroContainer{
+    background-image: url("./backgrounds/bg-small-screen.png");
+  }
+  .heroContent {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+  }
+  .heroContent p {
+    height:30%;
+    width:auto;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .heroContent span{
+    display: inline-block;
+  }
+}
+
+@media (max-width: 650px) {
+  .heroContent p {
+    font-size: 6vw;
+  }
+  .heroContent span {
+    font-size: 9vw;
+  }
+}
