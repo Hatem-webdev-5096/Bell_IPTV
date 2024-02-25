@@ -12,9 +12,8 @@ const MyNavbar = () => {
         <Navbar.Brand href="#home">
           <img
             className={styles.logo}
-            src={require("../../images/logo/logo (1).png")}
+            src={require("../../images/logo/bell logo.png")}
           />
-          <span className={styles.brandName}>Bell-IPTV</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

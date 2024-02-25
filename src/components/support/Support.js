@@ -46,14 +46,14 @@ const Support = (props) => {
           <a
             type="button"
             className={styles.whatsapp}
-            href="https://wa.me/17789010266"
+            href="https://wa.me/9495453111"
           >
             <WhatsAppIcon /> whatsapp{" "}
           </a>
           <a
             type="button"
             className={styles.callUs}
-            href="tel:+1(778) 901-0266"
+            href="tel:+1(949) 545-3111"
           >
             <LocalPhoneIcon /> call us
           </a>

@@ -11,7 +11,7 @@ const PriceCard = (props) => {
       <a
         type="button"
         className={`${styles.subscribe}`}
-        href="https://wa.me/17789010266"
+        href="https://wa.me/9495453111"
       >
         subscribe
       </a>

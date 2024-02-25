@@ -32,6 +32,7 @@
 }
 
 .logo {
-  min-width:3.2vw;
+  width:27vh;
   height:auto;
+  border-radius: 4px;
 }

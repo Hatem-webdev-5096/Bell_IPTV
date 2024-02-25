@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/logo (1).png" />
+  <link rel="icon" href="%PUBLIC_URL%/bell-logo.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Watch every thing you want from one portal. IPTV services" />
@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Arima:wght@200;300;400;500;600;700&display=swap" /> 
+  <link href="https://fonts.googleapis.com/css2?family=Arima:wght@200;300;400;500;600;700&display=swap" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
@@ -24,11 +24,45 @@
   <title>Bell-IPTV</title>
 
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DKDF17NJS3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-DKDF17NJS3');
+</script>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 
+  <div> Icons made by <a href="https://www.flaticon.com/authors/apien" title="apien"> apien </a> from <a
+      href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDPD9BG5bC3sy1POOd5muVWeUAf4Q2n_uM",
+      authDomain: "bell-iptv-80d37.firebaseapp.com",
+      projectId: "bell-iptv-80d37",
+      storageBucket: "bell-iptv-80d37.appspot.com",
+      messagingSenderId: "539753522775",
+      appId: "1:539753522775:web:a5beb020e8e63603792512",
+      measurementId: "G-DKDF17NJS3"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </body>
 
 </html>
