@@ -40,7 +40,7 @@ const Support = (props) => {
           <br />
           <br />
           <br />
-          Phone no:+1(778) 901-0266
+          Phone no:+1(949) 545-3111
         </p>
         <div className={styles.buttonsNew}>
           <a
